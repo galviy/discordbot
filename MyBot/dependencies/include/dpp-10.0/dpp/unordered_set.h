@@ -443,7 +443,7 @@ namespace dpp {
 		}
 	};
 
-	template<typename OTy, typename KTy, typename KATy = KeyAccessor<OTy, KTy>> class unordered_set {
+	template<typename KTy, typename OTy, typename KATy = KeyAccessor<OTy, KTy>> class unordered_set {
 	public:
 		using key_type = KTy;
 		using value_type = OTy;
